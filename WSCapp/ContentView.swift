@@ -64,7 +64,7 @@ struct TeamDebate: View{
         }) {
            Image("criteriaguideline")
                 .resizable()
-                .frame(width:400,height:30)
+                .frame(width:440,height:30)
                 .position(x: 200, y: 5)
             
         }
@@ -77,8 +77,21 @@ struct TeamDebate: View{
         }) {
            Image("scoringform")
                 .resizable()
-                .frame(width:390,height:21)
-                .position(x: 191, y: -8)
+                .frame(width:460,height:22)
+                .position(x: 203, y: -8)
+            
+        }
+        Button(action: {
+
+            if let yourURL = URL(string: "https://www.dropbox.com/s/lg7woug12x3le9o/Debate%20Adjudicator%20Script.pdf?dl=0") {
+                UIApplication.shared.open(yourURL, options: [:], completionHandler: nil)
+            }
+
+        }) {
+           Image("adjudicatorscript")
+                .resizable()
+                .frame(width:550,height:35)
+                .position(x: 150, y: -10)
             
         }
     }
