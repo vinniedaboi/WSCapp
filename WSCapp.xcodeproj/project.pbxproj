@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6200934D2903D3160087E73B /* challenge.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6200934C2903D3160087E73B /* challenge.mp4 */; };
 		62BA0C9A28FEDA8A00190BBA /* WSCappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BA0C9928FEDA8A00190BBA /* WSCappApp.swift */; };
 		62BA0C9C28FEDA8A00190BBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BA0C9B28FEDA8A00190BBA /* ContentView.swift */; };
 		62BA0C9E28FEDA8B00190BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62BA0C9D28FEDA8B00190BBA /* Assets.xcassets */; };
 		62BA0CA128FEDA8B00190BBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62BA0CA028FEDA8B00190BBA /* Preview Assets.xcassets */; };
+		62BA0CA8290159D000190BBA /* videoplayback.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 62BA0CA7290159D000190BBA /* videoplayback.mp4 */; };
+		62BA0CAA290165B800190BBA /* wsccollab.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 62BA0CA9290165B800190BBA /* wsccollab.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6200934C2903D3160087E73B /* challenge.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = challenge.mp4; path = ../../../Downloads/challenge.mp4; sourceTree = "<group>"; };
 		62BA0C9628FEDA8A00190BBA /* WSCapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSCapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62BA0C9928FEDA8A00190BBA /* WSCappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSCappApp.swift; sourceTree = "<group>"; };
 		62BA0C9B28FEDA8A00190BBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62BA0C9D28FEDA8B00190BBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62BA0CA028FEDA8B00190BBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62BA0CA7290159D000190BBA /* videoplayback.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = videoplayback.mp4; path = ../../../Downloads/videoplayback.mp4; sourceTree = "<group>"; };
+		62BA0CA9290165B800190BBA /* wsccollab.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = wsccollab.mp4; path = ../../../Downloads/wsccollab.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,9 @@
 		62BA0C9828FEDA8A00190BBA /* WSCapp */ = {
 			isa = PBXGroup;
 			children = (
+				6200934C2903D3160087E73B /* challenge.mp4 */,
+				62BA0CA9290165B800190BBA /* wsccollab.mp4 */,
+				62BA0CA7290159D000190BBA /* videoplayback.mp4 */,
 				62BA0C9928FEDA8A00190BBA /* WSCappApp.swift */,
 				62BA0C9B28FEDA8A00190BBA /* ContentView.swift */,
 				62BA0C9D28FEDA8B00190BBA /* Assets.xcassets */,
@@ -126,6 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				62BA0CA128FEDA8B00190BBA /* Preview Assets.xcassets in Resources */,
+				62BA0CA8290159D000190BBA /* videoplayback.mp4 in Resources */,
+				6200934D2903D3160087E73B /* challenge.mp4 in Resources */,
+				62BA0CAA290165B800190BBA /* wsccollab.mp4 in Resources */,
 				62BA0C9E28FEDA8B00190BBA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
